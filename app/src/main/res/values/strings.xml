@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MH Aid</string>
+    <string name="meditation_header">Meditation Home</string>
+    <string name="slider_name">Select Meditation Length</string>
+    <string name="med_button">Meditation</string>
+    <string name="quote">Quote</string>
+    <string name="back_button">Back to home</string>
+    <string name="begin_button">Begin Meditation</string>
+    <string name="end_button">End Meditation</string>
+</resources>
