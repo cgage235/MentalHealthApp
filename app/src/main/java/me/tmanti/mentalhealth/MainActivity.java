@@ -24,5 +24,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(changeActivity);
             }
         });
+
+        Button quoteBtn = (Button) findViewById(R.id.quoteSwitchButton);
+        quoteBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent changeActivity = new Intent(getApplicationContext(), QuotesActivity.class);
+
+                startActivity(changeActivity);
+            }
+        });
     }
 }
