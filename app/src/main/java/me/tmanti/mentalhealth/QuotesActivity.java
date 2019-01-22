@@ -33,7 +33,7 @@ public class QuotesActivity extends AppCompatActivity {
 
         final TextView quoteText = findViewById(R.id.quoteText);
 
-        InputStream is = this.getResources().openRawResource(R.raw.usableQuotes);
+        InputStream is = this.getResources().openRawResource(R.raw.quotes);
         BufferedReader reader = new BufferedReader(new InputStreamReader(is));
 
         if(is!=null){
